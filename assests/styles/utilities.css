@@ -1,0 +1,52 @@
+/* Flex Box Classes */
+.flex{
+    display: flex;
+}
+.flexCenter{
+    display: flex;
+    justify-content: center;
+}
+.flexRow{
+    flex-direction: row;
+}
+.flexCol{
+    flex-direction: column;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+/* Margin Related Classes */
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.my-1{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.my-2{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.my-3{
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+.px-3{
+    padding: 0 12px;
+}
+.p-12{
+    padding: 12px;
+}
+.bg-gray{
+    background-color: var(--inputCol);
+}
+.border-none{
+    border: none;
+}
+.rounded-sm{
+    border-radius: 2px;
+}

@@ -1,1 +1,12 @@
-@media screen and (max-width:767px){}
+@media screen and (max-width:767px){
+    .info{
+        display: flex;
+        color: var(--textBlue);
+        background-color: var(--yellow);
+        padding: 1rem 0;
+        justify-content: center;
+    }
+    .logo{
+        width: 8rem;
+    }
+}
