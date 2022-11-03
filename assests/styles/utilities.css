@@ -1,52 +1,76 @@
 /* Flex Box Classes */
-.flex{
+.flex {
     display: flex;
 }
-.flexCenter{
+
+.flexCenter {
     display: flex;
     justify-content: center;
 }
-.flexRow{
+
+.flexRow {
     flex-direction: row;
 }
-.flexCol{
+
+.flexCol {
     flex-direction: column;
 }
-.justify-center{
+
+.justify-center {
     justify-content: center;
 }
-.items-center{
+
+.items-center {
     align-items: center;
 }
+
 /* Margin Related Classes */
-.mx-auto{
+.mx-auto {
     margin-left: auto;
     margin-right: auto;
 }
-.my-1{
+
+.my-1 {
     margin-top: 4px;
     margin-bottom: 4px;
 }
-.my-2{
+
+.my-2 {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
-.my-3{
+
+.my-3 {
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
 }
-.px-3{
-    padding: 0 12px;
+
+.px-1 {
+    padding: 0 0.25rem;
 }
-.p-12{
-    padding: 12px;
+.px-2 {
+    padding: 0 0.5rem;
 }
-.bg-gray{
+.px-3 {
+    padding: 0 0.75rem;
+}
+
+.p-12 {
+    padding: 0.75rem;
+}
+
+.bg-gray {
     background-color: var(--inputCol);
 }
-.border-none{
+
+.border-none {
     border: none;
 }
-.rounded-sm{
+
+.rounded-sm {
     border-radius: 2px;
+}
+
+.shadow-sm{
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
 }
