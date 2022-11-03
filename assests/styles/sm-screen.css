@@ -9,4 +9,29 @@
     .logo{
         width: 8rem;
     }
+    .btnLogIn{
+        color: white;
+        background-color: var(--blue);
+        height: 40px;
+        border: none;
+        font-size: 17px;
+        font-weight: 700;
+    }
+    .btnAcc{
+        color: white;
+        background-color: var(--green);
+        height: 40px;
+        border: none;
+        font-size: 17px;
+        font-weight: 700;
+        padding: 0 1rem;
+        scale: 0.9;
+    }
+    span{
+        font-size: 13px;
+        font-weight: 100 ;
+    }
+    hr{
+        width: 10rem;
+    }
 }

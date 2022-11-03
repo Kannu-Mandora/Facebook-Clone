@@ -44,6 +44,10 @@
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
 }
+.my-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 
 .px-1 {
     padding: 0 0.25rem;
@@ -69,6 +73,9 @@
 
 .rounded-sm {
     border-radius: 2px;
+}
+.rounded-md {
+    border-radius: 4px;
 }
 
 .shadow-sm{
