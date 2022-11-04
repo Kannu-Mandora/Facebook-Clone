@@ -19,3 +19,21 @@
     --textBlue: #576B95; 
     --inputCol: #F5F6F7;   
 }
+.btnLogIn{
+    color: white;
+    background-color: var(--blue);
+    height: 40px;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+}
+.btnAcc{
+    color: white;
+    background-color: var(--green);
+    height: 40px;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 0 1rem;
+    scale: 0.9;
+}

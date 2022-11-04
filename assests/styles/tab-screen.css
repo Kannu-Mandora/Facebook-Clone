@@ -1,1 +1,20 @@
-@media screen and (min-width:767px) and (max-width:1023px){}
+@media screen and (min-width:767px) and (max-width:1023px){
+    .info{
+        display: none;
+    }
+    .logo{
+        width: 6rem;
+        margin: 1rem 0;
+        scale: 1.5;
+    }
+    .tabInputField{
+        margin: 0 10rem;
+    }
+    footer{
+        display: flex;
+        margin: 5rem 0;
+    }
+    footer div{
+        margin: 0 5rem;
+    }
+}
